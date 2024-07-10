@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:sans-serif
+}
+
+.hero{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.hero .container{
+    display: flex;
+    gap: 40px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    background-color:rgb(162, 157, 157);
+    box-shadow: 10px 20px 20px;
+
+}
+
+h1, h3{
+    font-size: 45px;
+    font-weight: 1000;
+    margin-bottom: 10px;
+}
+
+p{
+    font-size: 20px;
+    font-weight: 1000;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.box{
+    width: 90px;
+    height: 90px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+
+#box1{
+    background-color: orange;
+}
+#box2{
+background-color: white;
+}
+#box3{
+background-color: blue;
+}
+#box4{
+background-color: green;
+}
+#box5{
+background-color: yellow;
+}
+#box6{
+background-color: pink;
+}
+
+
